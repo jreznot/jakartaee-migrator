@@ -5,6 +5,6 @@
     <description value="For transferring old javax imports to the new jakarta ones." />
     <entry oldName="javax.inject" newName="jakarta.inject" type="package" recursive="true" />
     <entry oldName="javax.ws.rs" newName="jakarta.ws.rs" type="package" recursive="true" />
-    <entry oldName="javax.enterprise.inject" newName="jakarta.enterprise.inject" type="package" recursive="true" />
+    <entry oldName="javax.enterprise" newName="jakarta.enterprise" type="package" recursive="true" />
     <entry oldName="javax.persistence" newName="jakarta.persistence" type="package" recursive="true" />
 </migrationMap>
