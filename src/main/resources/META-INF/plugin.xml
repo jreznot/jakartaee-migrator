@@ -8,15 +8,16 @@
     ]]></description>
 
     <depends>com.intellij.modules.platform</depends>
+    <depends>com.intellij.modules.java</depends>
 
     <extensions defaultExtensionNs="com.intellij">
-        <!-- 3. TODO predefined migration -->
-
-        <!-- -->
+        <predefinedMigrationMapProvider implementation="org.jetbrains.jeemigrator.JakartaMigrationProvider"/>
     </extensions>
 
     <actions>
-        <!-- 1. TODO Find usages of Java EE in libraries -->
-        <!-- 2. TODO Find usages of removed Java EE APIs -->
+        <action id="org.jetbrains.jeemigrator.FindJavaEEZombieAction"
+                class="org.jetbrains.jeemigrator.FindJavaEEZombieAction" text="Find Removed Java EE APIs">
+            <add-to-group group-id="ToolsMenu" anchor="first"/>
+        </action>
     </actions>
 </idea-plugin>

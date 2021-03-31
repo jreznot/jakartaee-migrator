@@ -12,6 +12,7 @@ repositories {
 
 intellij {
     version '2020.3'
+    plugins = ['java']
 }
 
 patchPluginXml {
