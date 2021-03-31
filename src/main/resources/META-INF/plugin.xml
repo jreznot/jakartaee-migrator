@@ -1,0 +1,22 @@
+<idea-plugin>
+    <id>org.jetbrains.jakartaee-migrator</id>
+    <name>Java EE to Jakarta EE Migrator</name>
+    <vendor>JetBrains</vendor>
+
+    <description><![CDATA[
+        Helps with migration of applications from Java EE to Jakarta EE APIs.
+    ]]></description>
+
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- 3. TODO predefined migration -->
+
+        <!-- -->
+    </extensions>
+
+    <actions>
+        <!-- 1. TODO Find usages of Java EE in libraries -->
+        <!-- 2. TODO Find usages of removed Java EE APIs -->
+    </actions>
+</idea-plugin>
